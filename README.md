@@ -1,6 +1,6 @@
-# ds-project-template
+# The project summary
 
-Template for creating ds simple projects
+The aim of this project is to analyse the housing market in King County for my stakeholder Mrs. Nicole Johnson. Different requirements of Mrs. Johnson have to be taken into account during the analysis. The project documentation consists of a PDF file containing a presentation of the results and a Jupyter notebook as data analysis environment.
 
 ## Requirements
 
@@ -17,20 +17,12 @@ One of the first steps when starting any data science project is to create a vir
 * upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
 * installing the required packages via `pip`
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
 
-```bash
-pip freeze > requirements.txt
-```
+## PDF file: King County market analysis for Mrs. Johnson 
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
+The PDF file contains a market analysis of the housing market for King County based on the King County housing database. First a general overview of the housing market in King County is being given Then Mrs. Johnson's requirements of housing (lively, central neighbourhood, mid-price range and right timing (within a year)) are the foundation of the anlysis shown in this PDF. It ends up in special housing recommendations for Mrs. Johnson.
 
-### Unit testing (Optional)
+## EDA.ipynb 
 
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
+This is a Jupyter notebook which reveals all steps of analysis according to the market analysis for Mrs. Johnson.
 
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
