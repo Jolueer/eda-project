@@ -29,6 +29,6 @@ This is a Jupyter notebook which reveals all steps of analysis according to the 
 ## Support files in the repository
 
 The following files can be regarded as support files for the project:
-assignment.md: explains the project assignment
-column_names.md: explains the column names of the King County housing database
-workflow.md: shows the workflow of a typical EDA project
+* assignment.md: explains the project assignment
+* column_names.md: explains the column names of the King County housing database
+* workflow.md: shows the workflow of a typical EDA project
